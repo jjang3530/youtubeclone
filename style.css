@@ -47,16 +47,20 @@ header {
     display: flex;
     justify-content: space-between;
     padding: var(--spacing);
-    background-color: var(--black-color);
-    color: var(--white-color);
+    background-color: var(--white-color);
+    color: var(--balck-color);
   }
 
   header .logo {
     font-size: var(--font-large);
+    display: flex;
+    align-items: center;
   }
 
   header .logo i {
+    font-size: 32px;
     color: var(--red-color);
+    margin-right: 5px;
   }
 
   header .icons .fa-search {
