@@ -1,1 +1,3 @@
-# Youtube Site Clone Coding with HTML & CSS & JavaScript
+# Youtube Site Clone Coding
+
+Responsive web using with HTML & CSS & JavaScript
