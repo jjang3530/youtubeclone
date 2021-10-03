@@ -10,6 +10,119 @@
     <title>Youtube Clone</title>
 </head>
 <body>
-    
+    <!-- Header -->
+    <header>
+        <div class="logo">
+          <i class="fab fa-youtube"></i>
+          <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src="video/video.mp4"></video>
+    </section>
+
+    <!-- Video info & Up next -->
+    <div class="infoAndUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#YouTubeClone</li>
+            <li>#ResponsiveWeb</li>
+            <li>#JayJang</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp"
+              >Clone Coding: Youtube responsive Website: HTML, CSS, Javascript using YouTube API
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">2M views 3 month ago</span>
+        </div>
+        <!-- Actions buttons -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1.5K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>43</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <!-- Channel description -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/jay.jpg" alt="JayJang" />
+            <div class="info">
+              <span class="name">JayWeb by JayJang</span>
+              <span class="subscribers">1M subcribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!-- Up next -->
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="image/1.jpg" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >Introduction To Responsive Web Design - HTML & CSS Tutorial</span
+              >
+              <span class="name">freecodingcamp.org</span>
+              <span class="views">6K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/2.jpg" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >Build a Responsive Website | HTML, CSS Grid, Flexbox & More</span
+              >
+              <span class="name">Travercy Media</span>
+              <span class="views">84K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/3.jpg" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >17: How to Make a Website Responsive | Learn HTML and CSS | HTML Tutorial | Basics of CSS</span
+              >
+              <span class="name">Dani Crossing</span>
+              <span class="views">12K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+
 </body>
 </html>
